@@ -1,0 +1,14 @@
+:host {
+ font-family: var(--font-type-content);
+ font-weight: var(--font-weight-regular);
+}
+
+.main-container {
+  margin-top: 11rem;
+
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    margin-top: 4rem;
+  }
+}
+
